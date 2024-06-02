@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#000000 ;
+    padding: 1rem;
+
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a{
+
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: #FFC300 ;
+   
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
